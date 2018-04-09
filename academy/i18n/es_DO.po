@@ -1,0 +1,264 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* academy
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 11.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-04-05 00:09+0000\n"
+"PO-Revision-Date: 2018-04-04 20:10-0400\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 2.0.5\n"
+"Last-Translator: Eneldo Serrata <eneldoserrata@gmail.com>\n"
+"Language: es\n"
+
+#. module: academy
+#: model:ir.model.fields,field_description:academy.field_course_academy_id
+#: model:ir.ui.menu,name:academy.action_window_academy_menu
+msgid "Academy"
+msgstr "Academia"
+
+#. module: academy
+#: model:ir.ui.view,arch_db:academy.accdemy_form
+msgid "Accademy"
+msgstr "Academia"
+
+#. module: academy
+#: model:ir.model.fields,field_description:academy.field_academy_academy_active
+msgid "Activo"
+msgstr "Activo"
+
+#. module: academy
+#: model:ir.model.fields,field_description:academy.field_academy_academy_students
+msgid "Cantidad de Estudiantes"
+msgstr "Cantidad de Estudiantes"
+
+#. module: academy
+#: model:ir.model.fields,field_description:academy.field_academy_academy_career
+#: model:ir.model.fields,field_description:academy.field_professor_career_ids
+#: model:ir.ui.menu,name:academy.action_window_career_menu
+msgid "Career"
+msgstr "Carrera"
+
+#. module: academy
+#: model:ir.model.fields,field_description:academy.field_academy_academy_course_ids
+#: model:ir.model.fields,field_description:academy.field_student_course_id
+#: model:ir.ui.menu,name:academy.action_window_course_menu
+msgid "Course"
+msgstr ""
+
+#. module: academy
+#: model:ir.model.fields,field_description:academy.field_academy_academy_create_uid
+#: model:ir.model.fields,field_description:academy.field_career_create_uid
+#: model:ir.model.fields,field_description:academy.field_course_create_uid
+#: model:ir.model.fields,field_description:academy.field_professor_create_uid
+#: model:ir.model.fields,field_description:academy.field_student_create_uid
+msgid "Created by"
+msgstr ""
+
+#. module: academy
+#: model:ir.model.fields,field_description:academy.field_academy_academy_create_date
+#: model:ir.model.fields,field_description:academy.field_career_create_date
+#: model:ir.model.fields,field_description:academy.field_course_create_date
+#: model:ir.model.fields,field_description:academy.field_professor_create_date
+#: model:ir.model.fields,field_description:academy.field_student_create_date
+msgid "Created on"
+msgstr ""
+
+#. module: academy
+#: model:ir.model.fields,field_description:academy.field_academy_academy_display_name
+#: model:ir.model.fields,field_description:academy.field_career_display_name
+#: model:ir.model.fields,field_description:academy.field_course_display_name
+#: model:ir.model.fields,field_description:academy.field_professor_display_name
+#: model:ir.model.fields,field_description:academy.field_student_display_name
+msgid "Display Name"
+msgstr ""
+
+#. module: academy
+#: model:ir.model.fields,field_description:academy.field_student_name
+msgid "Estudiante"
+msgstr ""
+
+#. module: academy
+#: model:ir.model.fields,field_description:academy.field_course_end
+msgid "Finaliza"
+msgstr ""
+
+#. module: academy
+#: model:ir.model.fields,field_description:academy.field_academy_academy_start_date
+msgid "Fundada"
+msgstr ""
+
+#. module: academy
+#: model:ir.ui.view,arch_db:academy.accdemy_form
+msgid "General"
+msgstr ""
+
+#. module: academy
+#: model:ir.model.fields,field_description:academy.field_academy_academy_history
+msgid "Historia"
+msgstr ""
+
+#. module: academy
+#: model:ir.model.fields,field_description:academy.field_academy_academy_open_time
+msgid "Hora de apertura"
+msgstr ""
+
+#. module: academy
+#: model:ir.model.fields,field_description:academy.field_academy_academy_id
+#: model:ir.model.fields,field_description:academy.field_career_id
+#: model:ir.model.fields,field_description:academy.field_course_id
+#: model:ir.model.fields,field_description:academy.field_professor_id
+#: model:ir.model.fields,field_description:academy.field_student_id
+msgid "ID"
+msgstr ""
+
+#. module: academy
+#: model:ir.ui.view,arch_db:academy.accdemy_form
+msgid "Information"
+msgstr ""
+
+#. module: academy
+#: selection:academy.academy,career:0
+msgid "Ingenieria en Systemas"
+msgstr ""
+
+#. module: academy
+#: model:ir.model.fields,field_description:academy.field_course_start
+msgid "Inicio"
+msgstr ""
+
+#. module: academy
+#: model:ir.model.fields,field_description:academy.field_academy_academy___last_update
+#: model:ir.model.fields,field_description:academy.field_career___last_update
+#: model:ir.model.fields,field_description:academy.field_course___last_update
+#: model:ir.model.fields,field_description:academy.field_professor___last_update
+#: model:ir.model.fields,field_description:academy.field_student___last_update
+msgid "Last Modified on"
+msgstr ""
+
+#. module: academy
+#: model:ir.model.fields,field_description:academy.field_academy_academy_write_uid
+#: model:ir.model.fields,field_description:academy.field_career_write_uid
+#: model:ir.model.fields,field_description:academy.field_course_write_uid
+#: model:ir.model.fields,field_description:academy.field_professor_write_uid
+#: model:ir.model.fields,field_description:academy.field_student_write_uid
+msgid "Last Updated by"
+msgstr ""
+
+#. module: academy
+#: model:ir.model.fields,field_description:academy.field_academy_academy_write_date
+#: model:ir.model.fields,field_description:academy.field_career_write_date
+#: model:ir.model.fields,field_description:academy.field_course_write_date
+#: model:ir.model.fields,field_description:academy.field_professor_write_date
+#: model:ir.model.fields,field_description:academy.field_student_write_date
+msgid "Last Updated on"
+msgstr ""
+
+#. module: academy
+#: selection:academy.academy,career:0
+msgid "Medicina"
+msgstr ""
+
+#. module: academy
+#: model:ir.model.fields,field_description:academy.field_academy_academy_name
+#: model:ir.model.fields,field_description:academy.field_career_name
+#: model:ir.model.fields,field_description:academy.field_course_name
+msgid "Nombre"
+msgstr ""
+
+#. module: academy
+#: model:ir.model.fields,field_description:academy.field_academy_academy_budget
+msgid "Presupuesto"
+msgstr ""
+
+#. module: academy
+#: model:ir.model.fields,field_description:academy.field_professor_name
+msgid "Profesor"
+msgstr ""
+
+#. module: academy
+#: model:ir.model.fields,field_description:academy.field_course_professor_id
+msgid "Professor"
+msgstr ""
+
+#. module: academy
+#: model:ir.ui.menu,name:academy.action_window_professor_menu
+msgid "Proffesor"
+msgstr ""
+
+#. module: academy
+#: model:ir.model.fields,field_description:academy.field_course_student_ids
+#: model:ir.ui.menu,name:academy.action_window_student_menu
+msgid "Student"
+msgstr ""
+
+#. module: academy
+#: model:ir.ui.menu,name:academy.academy_menu
+msgid "Tarjetas"
+msgstr ""
+
+#. module: academy
+#: model:ir.model.fields,field_description:academy.field_academy_academy_website
+msgid "Website"
+msgstr ""
+
+#. module: academy
+#: model:ir.ui.menu,name:academy.menu_root
+msgid "academy"
+msgstr ""
+
+#. module: academy
+#: model:ir.actions.act_window,name:academy.action_window_academy
+msgid "academy window"
+msgstr ""
+
+#. module: academy
+#: model:ir.model,name:academy.model_academy_academy
+msgid "academy.academy"
+msgstr ""
+
+#. module: academy
+#: model:ir.model,name:academy.model_career
+msgid "career"
+msgstr ""
+
+#. module: academy
+#: model:ir.actions.act_window,name:academy.action_window_career
+msgid "career window"
+msgstr ""
+
+#. module: academy
+#: model:ir.model,name:academy.model_course
+msgid "course"
+msgstr ""
+
+#. module: academy
+#: model:ir.actions.act_window,name:academy.action_window_course
+msgid "course window"
+msgstr ""
+
+#. module: academy
+#: model:ir.model,name:academy.model_professor
+msgid "professor"
+msgstr ""
+
+#. module: academy
+#: model:ir.actions.act_window,name:academy.action_window_professor
+msgid "professor window"
+msgstr ""
+
+#. module: academy
+#: model:ir.model,name:academy.model_student
+msgid "student"
+msgstr ""
+
+#. module: academy
+#: model:ir.actions.act_window,name:academy.action_window_student
+msgid "student window"
+msgstr ""
