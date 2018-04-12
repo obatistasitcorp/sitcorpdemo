@@ -19,7 +19,6 @@ class academy(models.Model):
     course_ids = fields.One2many("course", "academy_id")
     tags = fields.Many2many("tags")
 
-
 class tags(models.Model):
     _name = "tags"
 
