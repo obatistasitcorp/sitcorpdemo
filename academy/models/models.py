@@ -18,8 +18,6 @@ class academy(models.Model):
     open_time = fields.Datetime("Hora de apertura")
     course_ids = fields.One2many("course", "academy_id")
     tags = fields.Many2many("tags")
-    street = fields.Char()
-
 
 class tags(models.Model):
     _name = "tags"
