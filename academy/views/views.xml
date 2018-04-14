@@ -1,4 +1,23 @@
+
+
+
+
 <odoo>
+
+    <!-- Inherit Form View to Modify it-->
+    <record id="academy.view_partner_form" model="ir.ui.view">
+        <field name="name">partner_form heredado</field>
+        <field name="model">res.partner</field>
+        <field name="inherit_id" ref="base.view_partner_form"/>
+        <field name="arch" type="xml">
+
+        <field name="vat" position="after">
+            <field name="genero" />
+        </field>
+
+        </field>
+    </record>
+
     <record id="accdemy_form" model="ir.ui.view">
         <field name="name">Academmy form</field>
         <field name="model">academy.academy</field>
